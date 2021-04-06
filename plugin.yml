@@ -1,0 +1,33 @@
+name: TimeCMDs
+version: 1.0.0
+api: 3.0.0
+main: Milchreisfan\TimeCMDs\Main
+author: Milchreisfan
+load: STARTUP
+website: "https://github.com/Milchreisfan/"
+
+commands:
+  day:
+    description: Ändere die Zeit zu Tag!
+    usage: "/day"
+    permission: day.cmd
+  night:
+    description: Ändere die Zeit zu Nacht!
+    usage: "/night"
+    permission: "night.cmd"
+  sunrise:
+    description: Ändere die Zeit zu Sonnenaufgang!
+    usage: "/sunrise"
+    permission: sunrise.cmd
+  sunset:
+    description: Ändere die Zeit zu Sonnenuntergang!
+    usage: "/sunset"
+    permission: sunset.cmd
+  noon:
+    description: Ändere die Zeit zu Mittag!
+    usage: "/noon"
+    permission: noon.cmd
+  midnight:
+    description: Ändere die Zeit zu Mitternacht!
+    usage: "/midnight"
+    permission: midnight.cmd
