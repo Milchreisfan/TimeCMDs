@@ -1,0 +1,7 @@
+name: TimeCMDs
+version: 2.0.0
+api: 3.0.0
+main: Milchreisfan\TimeCMDs\Main
+author: Milchreisfan, Kiniko
+load: STARTUP
+website: "https://github.com/Milchreisfan/"
